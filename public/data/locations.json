@@ -1,0 +1,97 @@
+[
+  {
+    "lat": 34.2449,
+    "lng": -119.2593,
+    "name": "Ventura Isle Marina"
+  },
+  {
+    "lat": 34.0531,
+    "lng": -119.754,
+    "name": "Fry's Harbor"
+  },
+  {
+    "lat": 34.0719,
+    "lng": -119.8596,
+    "name": "Painted Cave"
+  },
+  {
+    "lat": 33.9687,
+    "lng": -119.7075,
+    "name": "Coches Prietos"
+  },
+  {
+    "lat": 33.479,
+    "lng": -119.0205,
+    "name": "Santa Barbara Island"
+  },
+  {
+    "lat": 33.4677,
+    "lng": -118.5248,
+    "name": "Emerald Bay Anchorage"
+  },
+  {
+    "lat": 33.4677,
+    "lng": -118.4904,
+    "name": "Two Harbors"
+  },
+  {
+    "lat": 33.347,
+    "lng": -118.3265,
+    "name": "Avalon"
+  },
+  {
+    "lat": 32.7654,
+    "lng": -117.2477,
+    "name": "Mariner's Basin"
+  },
+  {
+    "lat": 32.72614,
+    "lng": -117.186,
+    "name": "A-9, Cruiser's anchorage, San Diego"
+  },
+  {
+    "lat": 32.4068,
+    "lng": -117.2418,
+    "name": "Islas Coronados"
+  },
+  {
+    "lat": 31.859,
+    "lng": -116.6262,
+    "name": "Baja Naval, Ensenada"
+  },
+  {
+    "lat": 28.3014,
+    "lng": -115.575,
+    "name": "Islas San Benito"
+  },
+  {
+    "lat": 28.0824,
+    "lng": -115.3341,
+    "name": "Cedros SW anchorage"
+  },
+  {
+    "lat": 27.6878,
+    "lng": -115.2294,
+    "name": "Gybe!"
+  },
+  {
+    "lat": 27.6831,
+    "lng": -114.8798,
+    "name": "Bahia Tortuga"
+  },
+  {
+    "lat": 27.20877,
+    "lng": -114.8939,
+    "name": "Running Along!",
+    "content": "# This is a header\n\nAnd this is a paragraph",
+    "images": [
+      "images/IMG_2254.jpg",
+      "images/IMG_2256.jpg"
+    ]
+  },
+  {
+    "lat": 27.1296,
+    "lng": -114.2724,
+    "name": "Bahia Ascension"
+  }
+]
