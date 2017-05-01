@@ -82,12 +82,7 @@
   {
     "lat": 27.20877,
     "lng": -114.8939,
-    "name": "Running Along!",
-    "content": "# This is a header\n\nAnd this is a paragraph",
-    "images": [
-      "images/IMG_2254.jpg",
-      "images/IMG_2256.jpg"
-    ]
+    "name": "Running Along!"
   },
   {
     "lat": 27.1296,
