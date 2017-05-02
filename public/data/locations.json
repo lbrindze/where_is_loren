@@ -88,5 +88,15 @@
     "lat": 27.1296,
     "lng": -114.2724,
     "name": "Bahia Ascension"
+  },
+  {
+    "lat":  26.2996,
+    "lng": -113.7076,
+    "name": "Where Did the Wind Go?"
+  },
+  {
+    "lat":  26.1990,
+    "lng": -112.4406,
+    "name": "San Juanico"
   }
 ]
