@@ -16,7 +16,8 @@ export default class OldLocation extends React.Component {
         <ModalContainer onClose={this.handleClose}>
           <ModalDialog onClose={this.handleClose}>
             <h1>{this.props.name}</h1>
-            {this.props.images && <ImageViewer images={this.props.images} />}
+            {this.props.images && <ImageViewer images={this.props.images}
+                                               imgUri='http://images.whereisloren.com/'/>}
             {this.props.content && <ReactMarkdown source={this.props.content} />}
             {/* default content message */}
             {!this.props.images && !this.props.content && <p>Content Comming Very Soon!</p>}

@@ -9,16 +9,16 @@ const settings = {
   slidesToScroll: 1
 };
 
-export default ({images}) => {
+export default ({images, imgUri}) => {
   return (
-    <Slider {...settings}>
-      { images.map((image, index) =>{
+    <div>
+      { images.map((image, index) => {
        return (
-         <div style={{maxHeight:'500px', maxWidth:'500px'}} >
-           <img src={image} alt='' key={index} />
+         <div key={index} >
+           <img src={imgUri + image}  style={{maxHeight:'350px', maxWidth:'350px'}} alt=''/>
          </div>
        );
       })}
-    </Slider>
+    </div>
   );
 }

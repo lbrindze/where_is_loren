@@ -11,14 +11,17 @@ class App extends Component {
         <div className="App-header">
           <h2>Where is Loren?</h2>
         </div>
+        <h3>
+          Here I am! (maybe?)
+        </h3>
         <p className="App-intro">
-          He is Here! (well, his boat at least... maybe?)
+          Click the red dots for more info
         </p>
         <div style={{width: '100%', height: '595px'}}>
           <TravellerMap />
         </div>
         <div className="App-footer">
-          <h4> Contact: <a href="mailto:lorenbrindze@gmail.com?Subject=Where%20are%20you%3F">lorenbrindze@gmail.com</a></h4>
+          <p> Contact: <a href="mailto:lorenbrindze@gmail.com?Subject=Where%20are%20you%3F">lorenbrindze@gmail.com</a></p>
         </div>
       </div>
     );
