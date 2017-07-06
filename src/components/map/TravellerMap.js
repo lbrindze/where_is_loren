@@ -3,11 +3,17 @@ import GoogleMapReact from 'google-map-react';
 import MyLocationMarker from './MyLocationMarker';
 import OldLocationMarker from './OldLocationMarker';
 import Locations from '../../../public/data/locations.json';
-const BOAT_NAME = 'Padelesha';
+import AlaskaLocations from '../../../public/data/alaskaLocations.json';
+let BOAT_NAME = 'Padelesha';
 
 
 const _map = (props) => {
-  const latestPosition = props.markers.slice(-1)[0];
+  const latestPosition = props.onDelivery ? props.markersMigrationDelivery.slice(-1)[0] : props.markers.slice(-1)[0];
+  if (props.onDelivery) {
+    BOAT_NAME = 'Migration';
+  }
+
+  const markers = [].concat(props.markers, props.markersMigrationDelivery);
   return (
     <GoogleMapReact
       bootstrapURLKeys={{key: 'AIzaSyCQgWNVWBIRCc4x5ZBzxoHgp04HRMM4PDo'}}
@@ -22,6 +28,16 @@ const _map = (props) => {
           strokeWeight: 2
         });
         route.setMap(map);
+
+        //Alaska
+        const route2 = new maps.Polyline({
+          path: props.markersMigrationDelivery,
+          geodesic: true,
+          strokeColor: '#f230b8',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+        route2.setMap(map);
       }}
       yesIWantToUseGoogleMapApiInternals={true}
     >
@@ -30,8 +46,8 @@ const _map = (props) => {
         { ...latestPosition }
       />
       {
-        props.markers.map(({ lat, lng, name, content, images}, index) => {
-          if (index < props.markers.length - 1) {
+        markers.map(({ lat, lng, name, content, images}, index) => {
+          if (index < markers.length - 1) {
             return (
               <OldLocationMarker
                 content={content}
@@ -53,10 +69,14 @@ export default _map
 
 _map.propTypes = {
   markers: React.PropTypes.array.isRequired,
+  markersMigrationDelivery: React.PropTypes.array,
   zoom: React.PropTypes.number,
+  onDelivery: React.PropTypes.bool,
 }
 
 _map.defaultProps = {
     zoom: 10,
-    markers: Locations
+    markers: Locations,
+    markersMigrationDelivery: AlaskaLocations,
+    onDelivery: true,
 }
