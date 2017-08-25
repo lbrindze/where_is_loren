@@ -78,5 +78,5 @@ _map.defaultProps = {
     zoom: 10,
     markers: Locations,
     markersMigrationDelivery: AlaskaLocations,
-    onDelivery: true,
+    onDelivery: false,
 }

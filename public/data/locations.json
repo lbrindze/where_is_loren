@@ -208,5 +208,60 @@
     "lat":  24.1608,
     "lng": -110.3303,
     "name": "La Paz"
+  },
+  {
+    "lat":  24.4299,
+    "lng": -110.3632,
+    "name": "Bahia San Gabriel"
+  },
+  {
+    "lat": 24.5330,
+    "lng": -110.3814,
+    "name": "Caleta Partida"
+  },
+  {
+    "lat":  24.5984, 
+    "lng": -110.3986,
+    "name": "Los Islotes"
+  },
+  {
+    "lat":  24.8278, 
+    "lng": -110.5665,
+    "name": "Isla San Francisco"
+  },
+  {
+    "lat":  24.8854,
+    "lng": -110.5739,
+    "name": "Bahia Amortajada"
+  },
+  {
+    "lat":  24.9129,
+    "lng": -110.7024,
+    "name": "San Evaristo"
+  },
+  {
+    "lat":  25.3036,
+    "lng": -110.9463,
+    "name": "Puerto Los Gatos"
+  },
+  {
+    "lat":  25.4762,
+    "lng": -111.0147,
+    "name": "Ensenada de la Ballena"
+  },
+  {
+    "lat":  25.5321,
+    "lng": -111.0633,
+    "name": "Roca Solitario"
+  },
+  {
+    "lat": 25.5143,
+    "lng": -111.0687,
+    "name": "Agua Verde"
+  },
+  {
+    "lat": 25.8118,
+    "lng": -111.3024,
+    "name": "Puerto Escondido"
   }
 ]
