@@ -263,5 +263,20 @@
     "lat": 25.8118,
     "lng": -111.3024,
     "name": "Puerto Escondido"
+  },
+  {
+    "lat":  25.8086,
+    "lng": -111.2585,
+    "name": "Honeymoon Cove"
+  },
+  {
+    "lat": 25.8118,
+    "lng": -111.3024,
+    "name": "Puerto Escondido"
+  },
+  {
+    "lat": 26.0149,
+    "lng": -111.3375,
+    "name": "Loreto"
   }
 ]
