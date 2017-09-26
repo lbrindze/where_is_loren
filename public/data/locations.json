@@ -278,5 +278,57 @@
     "lat": 26.0149,
     "lng": -111.3375,
     "name": "Loreto"
-  }
+  },
+  {
+    "lat": 26.1113,
+    "lng": -111.2837,
+    "name": "Isla Coronados"
+  },
+  {
+    "lat":  26.5870,
+    "lng": -111.4375,
+    "name": "Morning has broken"
+  },
+  {
+    "lat": 26.9252, 
+    "lng": -111.7954,
+    "name": "Still sailing..."
+  },
+  {
+    "lat": 26.9034, 
+    "lng": -111.9535,
+    "name": "Hey, Mulegé"
+  },
+  {
+    "lat":  27.9434,
+    "lng": -111.0629,
+    "name": "San Carlos"
+  },
+  {
+    "lat": 27.9544,
+    "lng": -111.2516,
+    "name": "Wish for Fish"
+  },
+  {
+    "lat": 28.8016,
+    "lng": -111.9439,
+    "name": "Bahia Kino"
+  },
+  {
+    "lat": 28.7568,
+    "lng": -112.2826,
+    "name": "Isla Tiburon"
+  },
+  {
+    "lat": 28.7630,
+    "lng": -112.3459,
+    "name": "Feast from the Sea"
+  },
+  {
+    "lat": 27.33967,
+    "lng": -112.2637,
+    "name": "Santa Rosalia (Baja Reprise)"
+  },
+
+
 ]
