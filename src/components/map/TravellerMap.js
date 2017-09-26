@@ -4,6 +4,7 @@ import MyLocationMarker from './MyLocationMarker';
 import OldLocationMarker from './OldLocationMarker';
 import Locations from '../../../public/data/locations.json';
 import AlaskaLocations from '../../../public/data/alaskaLocations.json';
+import calculateDistanceFromListLatLonNM from '../../utils/distance';
 let BOAT_NAME = 'Padelesha';
 
 
@@ -14,6 +15,10 @@ const _map = (props) => {
   }
 
   const markers = [].concat(props.markers, props.markersMigrationDelivery);
+  const distanceTravelled = Math.round(
+      calculateDistanceFromListLatLonNM(props.markers) * 100
+  ) / 100; //round to two decimal places...
+
   return (
     <GoogleMapReact
       bootstrapURLKeys={{key: 'AIzaSyCQgWNVWBIRCc4x5ZBzxoHgp04HRMM4PDo'}}
@@ -41,6 +46,7 @@ const _map = (props) => {
       }}
       yesIWantToUseGoogleMapApiInternals={true}
     >
+      <h1> Approximate Voyage Distance: {distanceTravelled} Nautical Miles </h1>
       <MyLocationMarker
         text={BOAT_NAME}
         { ...latestPosition }
